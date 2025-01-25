@@ -1,1 +1,1 @@
-<a href ="https://cdn.discordapp.com/attachments/1232754239462183044/1232757269947482122/i-gif.gif?ex=67967c2c&is=67952aac&hm=747d4cba4c45ce1ff7b225826a786a601a0d9c9e7fc1bf2388272b7341fb4dfb&"> </a>
+<img src="i-gif.gif">
