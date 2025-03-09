@@ -128,3 +128,11 @@ a:hover, a:active {
         align-items: center;
     }
 }
+
+.minecraft {
+    max-width: 80%;
+}
+
+.fnf {
+    max-width: 80%;
+}

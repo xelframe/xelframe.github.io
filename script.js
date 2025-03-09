@@ -118,7 +118,7 @@ if (!sessionStorage.getItem('animated')){
             } else {
                 clearInterval(systemd);
                 setTimeout(function(){
-                    terminal.insertAdjacentHTML('beforeend', `<br><p>semkapc Page<br>Kernel html5 on an html5 (tab)</p><br><p>root login: <span style="color: white; background-color: white;">_</span></p><br>`);
+                    terminal.insertAdjacentHTML('beforeend', `<br><p>semkapc Page<br>Kernel html5 on an html5 (browser-tab)</p><br><p>root login: <span style="color: white; background-color: white;">_</span></p><br>`);
                     terminal.scrollTop = terminal.scrollHeight;
                     setTimeout(function(){
                         document.body.style.overflow = 'auto';
