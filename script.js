@@ -1,5 +1,5 @@
 var text = `
-       Expecting device dev-ttyS0.device...
+       Expecting device dev-browser-tab.device...
 [ <span style="color: rgb(0, 255, 0);">OK</span> ] Reached target Remote File Systems.
 [ <span style="color: rgb(0, 255, 0);">OK</span> ] Listening on Delayed Shutdown Socket.
 [ <span style="color: rgb(0, 255, 0);">OK</span> ] Listening on /dev/initctl Compatibility Named Pipe.
@@ -31,7 +31,7 @@ var text = `
 [ <span style="color: rgb(0, 255, 0);">OK</span> ] Mounted Arbitrary Executable File Formats File System.
 [ <span style="color: rgb(0, 255, 0);">OK</span> ] Started Set Up Additional Binary Formats.
 [ <span style="color: rgb(0, 255, 0);">OK</span> ] Started Setup Virtual Console.
-[ <span style="color: rgb(0, 255, 0);">OK</span> ] Found device /dev/ttyso.
+[ <span style="color: rgb(0, 255, 0);">OK</span> ] Found device /dev/browser-tab.
        systemd-fsck [53]: semkapc: clean, 319575/983040 files, 2914206/3932160 blocks
 [ <span style="color: rgb(0, 255, 0);">OK</span> ] Started File System Check on Root Device.
        Starting Remount Root and Kernel File Systems...
@@ -42,10 +42,10 @@ var text = `
 [ <span style="color: rgb(0, 255, 0);">OK</span> ] Mounted Temporary Directory.
 [ <span style="color: rgb(0, 255, 0);">OK</span> ] Reached target Local File Systems.
        Starting Recreate Volatile Files and Directories...
-[ <span style="color: rgb(0, 255, 0);">OK</span> ] Found device QEMU_HARDDISK.
+[ <span style="color: rgb(0, 255, 0);">OK</span> ] Found device browser-storage.
        Activating swap /dev/disk/by-uuid/6038ea52-80a2-42c5...d0a22e1ce4c9...
 [ <span style="color: rgb(0, 255, 0);">OK</span> ] Started Load Random Seed.
-[ <span style="color: rgb(0, 255, 0);">OK</span> ] Activated swap /dev/disk/by-uuid/6038ea52-8032-42c5-8902-d0a22e1ce4c9.
+[ <span style="color: rgb(0, 255, 0);">OK</span> ] Activated swap /dev/sda2.
 [ <span style="color: rgb(0, 255, 0);">OK</span> ] Reached target Swap.
 [ <span style="color: rgb(0, 255, 0);">OK</span> ] Started Recreate Volatile Files and Directories.
 [ <span style="color: rgb(0, 255, 0);">OK</span> ] Reached target System Initialization. Starting Restore Sound Card State...
@@ -66,10 +66,10 @@ var text = `
 [ <span style="color: rgb(0, 255, 0);">OK</span> ] Started Network Time Service.
 [ <span style="color: rgb(0, 255, 0);">OK</span> ] Reached target Network Time Protocol.
 [ <span style="color: rgb(0, 255, 0);">OK</span> ] Started Permit User Sessions.
-       Starting Serial Getty on ttys0...
-[ <span style="color: rgb(0, 255, 0);">OK</span> ] Started Serial Getty on ttys0.
-       Starting Getty on tty1...
-[ <span style="color: rgb(0, 255, 0);">OK</span> ] Started Getty on tty1.
+       Starting Serial Getty on browser-tab...
+[ <span style="color: rgb(0, 255, 0);">OK</span> ] Started Serial Getty on browser-tab.
+       Starting Getty on browser-tab...
+[ <span style="color: rgb(0, 255, 0);">OK</span> ] Started Getty on browser-tab.
 [ <span style="color: rgb(0, 255, 0);">OK</span> ] Reached target Login Prompts.
 [ <span style="color: rgb(0, 255, 0);">OK</span> ] Started D-Bus System Message Bus.
 [ <span style="color: rgb(0, 255, 0);">OK</span> ] Started Avahi mDNS/DNS-SD Stack.
@@ -118,7 +118,7 @@ if (!sessionStorage.getItem('animated')){
             } else {
                 clearInterval(systemd);
                 setTimeout(function(){
-                    terminal.insertAdjacentHTML('beforeend', `<br><p>semkapc Page<br>Kernel 3.4.3-1.fc17.x86_64 on an x86_64 (ttySo)</p><br><p>root login: <span style="color: white; background-color: white;">_</span></p><br>`);
+                    terminal.insertAdjacentHTML('beforeend', `<br><p>semkapc Page<br>Kernel html5 on an html5 (tab)</p><br><p>root login: <span style="color: white; background-color: white;">_</span></p><br>`);
                     terminal.scrollTop = terminal.scrollHeight;
                     setTimeout(function(){
                         document.body.style.overflow = 'auto';
