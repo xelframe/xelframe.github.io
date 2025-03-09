@@ -1,34 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 body {
     margin: 0;
-    font-family: 'Nunito', sans-serif;
-    background: linear-gradient(-45deg, #030303, #222222, #030303, #222222);
-    background-size: 1000% 1000%;
-    animation: gradient 15s ease infinite;
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    background-image: url('/images/bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
     color: #fff;
     text-align: center;
-}
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
-.content {
-    margin: 20px;
+    height: 100vh;
 }
 
 header {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 10px;
-    text-align: center;
-    font-family: 'Ubuntu';font-size: 16px;
 }
 
 main {
@@ -37,10 +24,6 @@ main {
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 20px;
-}
-
-h1, h2 {
-    text-align: center;
 }
 
 nav {
@@ -88,8 +71,59 @@ a:hover, a:active {
     font-family: 'Ubuntu';font-size: 16px;
 }
 
+.anim main {
+    animation: fadein 500ms cubic-bezier(0, 1, 1, 1);
+}
+
+.anim header {
+    animation: headerfade 500ms linear;
+}
+
+#terminal {
+    display: none;
+    width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    overflow: auto;
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    background-color: black;
+    font-family: 'consolas', monospace;
+    text-align: left;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    white-space: pre-wrap;
+}
+
+#terminal::-webkit-scrollbar { 
+    display: none;
+}
+
+#terminal p {
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes fadein {
+    from { opacity: 0; filter: blur(10px); transform: scale(0.8); }
+    to { opacity: 1; filter: blur(0px); transform: scale(1); }
+}
+
+@keyframes headerfade {
+    from { opacity: 0; transform: translateY(-100%); }
+    to { opacity: 1; transform: translateY(0%); }
+}
+
 @media (max-width: 600px) {
     nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer {
+        display: flex;
         flex-direction: column;
         align-items: center;
     }
