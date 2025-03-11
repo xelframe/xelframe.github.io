@@ -133,7 +133,6 @@ if (!sessionStorage.getItem('animated')){
 }
 
 var arr = [
-       'https://my-wallpapers.github.io/my-wallpapers/Corner_of_my_desk.jpg',
        'https://my-wallpapers.github.io/my-wallpapers/Dark_forest.jpg',
        'https://my-wallpapers.github.io/my-wallpapers/Dark_park.jpg',
        'https://my-wallpapers.github.io/my-wallpapers/Ducks_in_the_sea.jpg',
