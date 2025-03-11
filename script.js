@@ -153,7 +153,14 @@ var arr = [
        'https://my-wallpapers.github.io/my-wallpapers/Sun.jpg',
        'https://my-wallpapers.github.io/my-wallpapers/Sunset.jpg',
        'https://my-wallpapers.github.io/my-wallpapers/Trees.jpg',
-       'https://my-wallpapers.github.io/my-wallpapers/lamp_dark.png'
+       'https://my-wallpapers.github.io/my-wallpapers/lamp_dark.png',
+       'https://my-wallpapers.github.io/windows/original/windows-vista/Light%20Auras/img27.jpg',
+       'https://my-wallpapers.github.io/windows/original/windows-vista/Widescreen/img35.jpg',
+       'https://my-wallpapers.github.io/windows/original/windows-vista/Textures/img6.jpg',
+       'https://my-wallpapers.github.io/windows/original/windows-vista/Vistas/img20.jpg',
+       'https://my-wallpapers.github.io/windows/original/windows-vista/Vistas/img18.jpg',
+       'https://my-wallpapers.github.io/windows/original/windows-vista/Widescreen/img31.jpg'
+
      ];
      
      function rand(min, max) {
