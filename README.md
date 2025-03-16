@@ -1,8 +1,8 @@
 <h1>Современная версия странички</h1><br>
 <h2>Спасибо огромное Максиму (https://github.com/PatrickStar8753)</h2>
-<h2>Легаси версия для старых систем и браузеров <a href="http://semka.w10.site">http://semka.w10.site</a> </h2>
+<h2>Легаси версия для старых систем и браузеров <a href="http://semka.w10.site">http://semka.w10.site</a> (Лень че то добавлять ещё)</h2>
 <h1>Что есть на сайте?</h1>
-<img src="da.png" height="500" weight="700">
+<img src="images/pagepreview.png" height="500">
 <p>Скриншот за 03.15.2025 (15:30 GMT+4)</p>
 <h3>Нууу мои контакты и кнопочки на сайты моих друзей</h2>
 <a href="//gamma-world.eu"><img src="images/gw.png" width="88" height="31" alt="Gamma World"></a><br>
