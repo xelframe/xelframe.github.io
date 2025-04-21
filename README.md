@@ -1,6 +1,6 @@
 <h1>Современная версия странички</h1><br>
 <h2>Спасибо огромное Максиму (https://github.com/PatrickStar8753)</h2>
-<h2>Легаси версия для старых систем и браузеров <a href="http://semka.w10.site">http://semka.w10.site</a> (Лень че то добавлять ещё)</h2>
+<h2>Еще одна моя страничка (буду ее обновлять еще) <a href="http://semka.w10.site">http://semka.w10.site</a></h2>
 <h1>Что есть на сайте?</h1>
 <img src="images/pagepreview.png" height="500">
 <p>Скриншот за 07.04.2025 (15:32 GMT+3)</p>
