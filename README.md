@@ -2,7 +2,7 @@
 <h2>Спасибо огромное Максиму (https://github.com/PatrickStar8753)</h2>
 <h2>Еще одна моя страничка (буду ее обновлять еще) <a href="http://semka.w10.site">http://semka.w10.site</a></h2>
 <h1>Что есть на сайте?</h1>
-<img src="images/pagepreview.jpg" height="500">
+<img src="images/pagepreview.jpg" height="500" width="700">
 <p>Скриншот за 25.04.2025 (21:51 GMT+3)</p>
 <h3>Нууу мои контакты и кнопочки на сайты моих друзей</h2>
 <a href="//gamma-world.eu"><img src="images/gw.png" width="88" height="31" alt="Gamma World"></a><br>
