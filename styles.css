@@ -80,6 +80,7 @@ a {
     transition: color 0.3s ease;
     font-family: 'Monocraft';
     font-size: 16px;
+    text-decoration: underline;
 }
 
 a:hover, a:active {
