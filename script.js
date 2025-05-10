@@ -41,47 +41,47 @@ if (!sessionStorage.getItem('animated')) {
        terminal.remove();
    }
 
-var arr = [
-       'https://my-wallpapers.github.io/my-wallpapers/Dark_forest.jpg',
-       'https://my-wallpapers.github.io/my-wallpapers/Dark_park.jpg',
-       'https://my-wallpapers.github.io/my-wallpapers/Ducks_in_the_sea.jpg',
-       'https://my-wallpapers.github.io/my-wallpapers/Flower.jpg',
-       'https://my-wallpapers.github.io/my-wallpapers/Flowers.jpg',
-       'https://my-wallpapers.github.io/my-wallpapers/Grass.jpg',
-       'https://my-wallpapers.github.io/my-wallpapers/Hill.jpg',
-       'https://my-wallpapers.github.io/my-wallpapers/Insects.jpg',
-       'https://my-wallpapers.github.io/my-wallpapers/Keys.jpg',
-       'https://my-wallpapers.github.io/my-wallpapers/Leaf.jpg',
-       'https://my-wallpapers.github.io/my-wallpapers/Leaves_in_the_rock.jpg',
-       'https://my-wallpapers.github.io/my-wallpapers/Mountain.jpg',
-       'https://my-wallpapers.github.io/my-wallpapers/Plank.jpg',
-       'https://my-wallpapers.github.io/my-wallpapers/Sky.jpg',
-       'https://my-wallpapers.github.io/my-wallpapers/Stairs.jpg',
-       'https://my-wallpapers.github.io/my-wallpapers/Stones.jpg',
-       'https://my-wallpapers.github.io/my-wallpapers/Stop.jpg',
-       'https://my-wallpapers.github.io/my-wallpapers/Sun.jpg',
-       'https://my-wallpapers.github.io/my-wallpapers/Sunset.jpg',
-       'https://my-wallpapers.github.io/my-wallpapers/Trees.jpg',
-       'https://my-wallpapers.github.io/my-wallpapers/lamp_dark.png',
-       'https://my-wallpapers.github.io/windows/original/windows-vista/Light%20Auras/img27.jpg',
-       'https://my-wallpapers.github.io/windows/original/windows-vista/Widescreen/img35.jpg',
-       'https://my-wallpapers.github.io/windows/original/windows-vista/Textures/img6.jpg',
-       'https://my-wallpapers.github.io/windows/original/windows-vista/Vistas/img20.jpg',
-       'https://my-wallpapers.github.io/windows/original/windows-vista/Vistas/img18.jpg',
-       'https://my-wallpapers.github.io/windows/original/windows-vista/Widescreen/img31.jpg'
-
-     ];
-     
-     function rand(min, max) {
-       return Math.floor(Math.random() * (max - min) + min);
-     }
-     
-     var savedWallpaper = sessionStorage.getItem('backgroundWallpaper');
-     
-     if (savedWallpaper) {
-       document.body.style.backgroundImage = 'url(' + savedWallpaper + ')';
-     } else {
-       var selectedWallpaper = arr[rand(0, arr.length)];
-       document.body.style.backgroundImage = 'url(' + selectedWallpaper + ')';
-       sessionStorage.setItem('backgroundWallpaper', selectedWallpaper);
-     }
+// var arr = [
+      //  'https://my-wallpapers.github.io/my-wallpapers/Dark_forest.jpg',
+      //  'https://my-wallpapers.github.io/my-wallpapers/Dark_park.jpg',
+      //  'https://my-wallpapers.github.io/my-wallpapers/Ducks_in_the_sea.jpg',
+      //  'https://my-wallpapers.github.io/my-wallpapers/Flower.jpg',
+      //  'https://my-wallpapers.github.io/my-wallpapers/Flowers.jpg',
+      //  'https://my-wallpapers.github.io/my-wallpapers/Grass.jpg',
+      //  'https://my-wallpapers.github.io/my-wallpapers/Hill.jpg',
+      //  'https://my-wallpapers.github.io/my-wallpapers/Insects.jpg',
+      //  'https://my-wallpapers.github.io/my-wallpapers/Keys.jpg',
+      //  'https://my-wallpapers.github.io/my-wallpapers/Leaf.jpg',
+      //  'https://my-wallpapers.github.io/my-wallpapers/Leaves_in_the_rock.jpg',
+      //  'https://my-wallpapers.github.io/my-wallpapers/Mountain.jpg',
+      //  'https://my-wallpapers.github.io/my-wallpapers/Plank.jpg',
+      //  'https://my-wallpapers.github.io/my-wallpapers/Sky.jpg',
+      //  'https://my-wallpapers.github.io/my-wallpapers/Stairs.jpg',
+      //  'https://my-wallpapers.github.io/my-wallpapers/Stones.jpg',
+      //  'https://my-wallpapers.github.io/my-wallpapers/Stop.jpg',
+      //  'https://my-wallpapers.github.io/my-wallpapers/Sun.jpg',
+      //  'https://my-wallpapers.github.io/my-wallpapers/Sunset.jpg',
+      //  'https://my-wallpapers.github.io/my-wallpapers/Trees.jpg',
+      //  'https://my-wallpapers.github.io/my-wallpapers/lamp_dark.png',
+      //  'https://my-wallpapers.github.io/windows/original/windows-vista/Light%20Auras/img27.jpg',
+      //  'https://my-wallpapers.github.io/windows/original/windows-vista/Widescreen/img35.jpg',
+      //  'https://my-wallpapers.github.io/windows/original/windows-vista/Textures/img6.jpg',
+      //  'https://my-wallpapers.github.io/windows/original/windows-vista/Vistas/img20.jpg',
+      //  'https://my-wallpapers.github.io/windows/original/windows-vista/Vistas/img18.jpg',
+      //  'https://my-wallpapers.github.io/windows/original/windows-vista/Widescreen/img31.jpg'
+// 
+    //  ];
+    //  
+    //  function rand(min, max) {
+      //  return Math.floor(Math.random() * (max - min) + min);
+    //  }
+    //  
+    //  var savedWallpaper = sessionStorage.getItem('backgroundWallpaper');
+    //  
+    //  if (savedWallpaper) {
+      //  document.body.style.backgroundImage = 'url(' + savedWallpaper + ')';
+    //  } else {
+      //  var selectedWallpaper = arr[rand(0, arr.length)];
+      //  document.body.style.backgroundImage = 'url(' + selectedWallpaper + ')';
+      //  sessionStorage.setItem('backgroundWallpaper', selectedWallpaper);
+    //  }

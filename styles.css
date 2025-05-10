@@ -13,24 +13,33 @@ body {
     background-position: center center;
     background-attachment: fixed;
     background-color: black;
+    background-image: url(images/bg.jpg);
     color: #fff;
     text-align: center;
-    height: 100vh;
+    height: 100svh;
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(34, 34, 34, 0.9);
     backdrop-filter: blur(10px);
     padding: 7px;
 }
 
 main {
     max-width: 800px;
+    width: 100%;
     margin: 0 auto;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(34, 34, 34, 0.9);
     backdrop-filter: blur(10px);
     border-radius: 20px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    height: 100%;
 }
 
 nav {
@@ -162,26 +171,18 @@ a:hover, a:active {
 
 .webring{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    max-width: 800px;
+    width:100%;
     margin: 0 auto;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(34, 34, 34, 0.9);
     backdrop-filter: blur(10px);
-    border-radius: 20px;
+    margin-top: auto;
 }
 
-.absolutepos {
-    position: absolute;
-}
-
-.nutipaleft {
-    left: 1rem
-}
-
-.nutiparight {
-    right: 1rem
+.webring a {
+    padding: 7px;
 }
 
 .fixedpos {

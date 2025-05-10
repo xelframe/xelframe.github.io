@@ -1,12 +1,3 @@
 <h1>Современная версия странички</h1><br>
-<h2>Спасибо огромное Максиму (https://github.com/PatrickStar8753)</h2>
-<h2>Еще одна моя страничка (буду ее обновлять еще) <a href="http://semka.w10.site">http://semka.w10.site</a></h2>
-<h1>Что есть на сайте?</h1>
-<img src="images/pagepreview.jpg" height="500" width="700">
-<p>Скриншот за 25.04.2025 (21:51 GMT+3)</p>
-<h3>Нууу мои контакты и кнопочки на сайты моих друзей</h2>
-<a href="//gamma-world.eu"><img src="images/gw.png" width="88" height="31" alt="Gamma World"></a><br>
-<p>Вот например кнопочка для перехода на сайт моего друга gamma63</p>
-<h2>Еще есть раздел с программами, где вы сможете найти ссылки на различные программы не только для Windows, но и для Linux (c 25.04.25 больше нет)</h2>
-<h2>Есть игры, их там не много но и так сойдет :3</h2>
-<h2>Tакже вы можете пообщатся с людьми через чат на сайте (возможно переделаю его когда нибудь, и будет он хостится на моем втором компе (25.04.25 все еще не сделал))</h2>
+<h2>Спасибо огромное Cat. (<a href="https://github.com/PatrickStar8753">https://github.com/PatrickStar8753</a>) и Kostya Zero (<a href="https://github.com/kostya-zero">https://github.com/kostya-zero</a>)</h2><br>
+<h2>Еще одна моя страничка <a href="http://semka.w10.site">http://semka.w10.site</a></h2>
