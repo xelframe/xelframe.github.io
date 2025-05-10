@@ -10,36 +10,28 @@ function digitalClock() {
     setTimeout(digitalClock, 1000);
 }
 
-document.addEventListener('DOMContentLoaded', (event) => {
-    digitalClock();
-    
-    try {
-        const script = document.createElement('script');
-        script.src = "//counter.websiteout.com/js/3/8/0/1";
-        document.getElementById('visit-counter').appendChild(script);
-    } catch (e) {}
-});
+ document.addEventListener('DOMContentLoaded', (event) => {
+     digitalClock();  
+ });
 
-if (!sessionStorage.getItem('animated')) {
-       sessionStorage.setItem('animated', 'true');
-       document.body.classList.add('anim');
-       document.getElementById('content').style.display = 'none';
-       document.body.style.overflow = 'hidden';
-       terminal.style.display = 'block';
-   
-       setTimeout(function() {
-           terminal.insertAdjacentHTML('beforeend', `<h2>Loading page...</h2>`);
-           terminal.scrollTop = terminal.scrollHeight;
-           
-           setTimeout(function() {
-               document.body.style.overflow = 'auto';
-               document.getElementById('content').style.display = 'block';
-               terminal.remove();
-           }, 1500);
-       }, 300);
-   } else {
-       terminal.remove();
-   }
+ if (!sessionStorage.getItem('animated')) {
+        sessionStorage.setItem('animated', 'true');
+        document.body.classList.add('anim');
+        document.getElementById('content').style.display = 'none';
+        document.body.style.overflow = 'hidden';
+        terminal.style.display = 'block'; 
+        setTimeout(function() {
+            terminal.insertAdjacentHTML('beforeend', `<h2>Loading page...</h2>`);
+            terminal.scrollTop = terminal.scrollHeight;         
+            setTimeout(function() {
+                document.body.style.overflow = 'auto';
+                document.getElementById('content').style.display = 'flex';
+                terminal.remove();
+            }, 1500);
+        }, 300);
+    } else {
+        terminal.remove();
+    }
 
 // var arr = [
       //  'https://my-wallpapers.github.io/my-wallpapers/Dark_forest.jpg',
