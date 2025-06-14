@@ -44,7 +44,11 @@ a {
 
 a,
 .webring {
-    color: orange;
+    color: rgb(66, 131, 252);
+}
+
+a:visited {
+    color: rgb(0, 17, 255);
 }
 
 main {
@@ -79,7 +83,7 @@ main {
 }
 
 iframe {
-  border: 2px solid orange;
+  border: 2px solid rgb(66, 131, 252);
 }
 
 @media (max-width: 600px) {
